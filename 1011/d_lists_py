@@ -1,0 +1,19 @@
+names = ['JOhn', 'Bob', 'Mosh', 'Sara', 'Mary']
+print(names)
+
+#index at
+names = ['John', 'Bob', 'Mosh', 'Sara', 'Mary']
+print(names[0])
+
+#index starting from
+names = ['John', 'Bob', 'Mosh', 'Sara', 'Mary']
+print(names[1:])
+
+#index starting from to end
+names = ['John', 'Bob', 'Mosh', 'Sara', 'Mary']
+print(names[1:3])
+
+#To change the data of lists
+names = ['John', 'Bob', 'Mosh', 'Sara', 'Mary']
+names[1] = 'Jon'
+print(names[1:])
